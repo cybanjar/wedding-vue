@@ -1,5 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <video autoplay loop muted>
+      <source src="../assets/SuciRyan/menu_utama.mp4" type="video/mp4" />
+    </video>
   </div>
 </template>

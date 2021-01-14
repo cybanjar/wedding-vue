@@ -48,10 +48,10 @@
         </div> -->
 
         <button
-          class="px-8 py-2 hover:bg-red-500 hover:text-gray-300 bg-gray-700 text-white rounded-md m-4"
+          class="px-8 py-2 hover:bg-gray-800 hover:text-gray-300 bg-gray-700 text-white rounded-md m-4"
           type="submit"
         >
-          Buka Undangan
+          <router-link to="/about"> Buka Undangan </router-link>
         </button>
       </div>
     </div>
@@ -59,53 +59,53 @@
 </template>
 
 <script>
-  import { ref } from "vue";
-  import "animate.css";
-  export default {
-    setup() {
-      const weddingName = ref("Suci & Ryan");
+import { ref } from "vue";
+import "animate.css";
+export default {
+  setup() {
+    const weddingName = ref("Suci & Ryan");
 
-      return {
-        weddingName,
-      };
-    },
-  };
+    return {
+      weddingName,
+    };
+  },
+};
 </script>
 
 <style>
-  .bg-opening {
-    background-image: url("../assets/SuciRyan/opening.jpg");
-  }
+.bg-opening {
+  background-image: url("../assets/SuciRyan/opening.jpg");
+}
 
-  .card-opening {
-    min-width: 350px;
-  }
+.card-opening {
+  min-width: 350px;
+}
 
-  .infinite {
-    animation-iteration-count: infinite;
-    animation-name: zoomInfinite;
-    animation-timing-function: ease-in-out;
-  }
+.infinite {
+  animation-iteration-count: infinite;
+  animation-name: zoomInfinite;
+  animation-timing-function: ease-in-out;
+}
 
-  @keyframes zoomInfinite {
-    from {
-      transform: 0;
-    }
-    to {
-      transform: scale(1.1);
-    }
+@keyframes zoomInfinite {
+  from {
+    transform: 0;
   }
+  to {
+    transform: scale(1.1);
+  }
+}
 
-  .zoom {
-    animation: scale 2s linear infinite;
+.zoom {
+  animation: scale 2s linear infinite;
+}
+@keyframes scale {
+  10% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
   }
-  @keyframes scale {
-    10% {
-      -webkit-transform: scale(1.1);
-      -moz-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      -o-transform: scale(1.1);
-      transform: scale(1.1);
-    }
-  }
+}
 </style>
