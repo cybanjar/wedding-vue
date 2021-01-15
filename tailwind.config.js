@@ -24,6 +24,7 @@ module.exports = {
       backgroundColor: ['responsive', 'hover', 'focus', 'active', ],   
       fontSize: ['responsive', 'hover'],
       borderColor: ['active'],
+      visibility: ['hover', 'focus'],
   },
   plugins: [],
 };

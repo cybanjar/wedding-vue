@@ -76,8 +76,4 @@
   .bg-opening {
     background-image: url("../assets/SuciRyan/opening.jpg");
   }
-
-  .card-opening {
-    min-width: 350px;
-  }
 </style>

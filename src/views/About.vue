@@ -4,6 +4,11 @@
       <video class="w-full" autoplay loop muted>
         <source src="../assets/SuciRyan/menu_utama.mp4" type="video/mp4" />
       </video>
+      <div class="w-full hidden md:visible">
+        <div>
+          <img src="../assets/SuciRyan/slider-top.jpg" />
+        </div>
+      </div>
     </section>
 
     <section id="bismillah">
@@ -45,3 +50,17 @@
     </section>
   </div>
 </template>
+
+<script>
+  import { ref } from "vue";
+  import "animate.css";
+  export default {
+    setup() {
+      const isMobile = Boolean;
+
+      return {
+        isMobile,
+      };
+    },
+  };
+</script>
