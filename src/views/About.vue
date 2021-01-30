@@ -17,6 +17,7 @@
           class="max-w-ss py-5 mx-auto"
           src="../assets/SuciRyan/bismillah.png"
         />
+      
         <p class="text-white text-center px-5 py-3">
           Maha suci Allah SWT yang telah menciptakan Mahluk-Nya
           berpasangan-pasangan, Ya Allah SWT perkenankanlah Kami :

@@ -74,6 +74,8 @@
 
 <style>
   .bg-opening {
-    background-image: url("../assets/SuciRyan/opening.jpg");
+    background-image: url("../assets/VikaKevin/bgWelcomePhon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 </style>
